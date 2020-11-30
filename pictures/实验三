@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T03:06:12.048Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="S672iTWhioa0CVgHHbST" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T03:23:55.093Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="tw2TphfO08aGoUHKqxoe" version="13.10.4" type="github">
   <diagram id="a5RrpdZWRd9jP5shr4PD" name="第 1 页">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,6 +50,36 @@
         </mxCell>
         <mxCell id="YCsscmcBEZokFG-e1ZRI-16" value="ObjectInputStream" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="650" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="YCsscmcBEZokFG-e1ZRI-17" target="YCsscmcBEZokFG-e1ZRI-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-17" value="创建文件输出流（字节流）FileOutputStream" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="75" y="440" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-32" value="输出到文件" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="75" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="YCsscmcBEZokFG-e1ZRI-34" target="YCsscmcBEZokFG-e1ZRI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-34" value="System.in接收键盘输入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="75" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="YCsscmcBEZokFG-e1ZRI-36" target="YCsscmcBEZokFG-e1ZRI-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-36" value="System.in接收键盘输入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="YCsscmcBEZokFG-e1ZRI-38" target="YCsscmcBEZokFG-e1ZRI-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-38" value="InputStreamReader将字节流转换为字符流" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="235" y="450" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YCsscmcBEZokFG-e1ZRI-41" value="BufferStreamReader转换为带缓冲的字符流" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="525" width="135" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
